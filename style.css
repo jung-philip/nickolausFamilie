@@ -1,0 +1,62 @@
+body {
+    background-color: red;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+header {
+    padding-bottom: 1rem;
+    border-bottom: solid white 0.2rem;
+}
+
+main {
+    background-color: black;
+    margin: 0 18%;
+    border-radius: 25px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+h2 {
+    padding: 1.5rem;   
+}
+
+img {
+    margin: 0 0 2rem 0;
+}
+
+p {
+    margin-top: 0;
+}
+
+img {
+    max-width: 45rem;
+    border-radius: 200px;
+}
+
+#bodyTwo {
+    margin: 25% 0;
+}
+
+@media only screen and (max-width: 480px) {
+    
+    img {
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        background-color: black;
+    }
+    #bodyTwo {
+        margin-top: 100%;
+    }
+}
